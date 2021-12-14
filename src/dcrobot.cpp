@@ -27,7 +27,6 @@ void DCRobot::handle_states() {
         ROS_INFO_STREAM("[DCRobot] in state: " << state_ << "________________");
         pre_state_ = state_;
     }
-    
     //  State Switches to the respective state
     switch (state_) {
         case STARTING:
